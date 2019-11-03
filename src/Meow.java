@@ -10,7 +10,7 @@ public class Meow {
         catyara.all1_data("собака","5","Полосатая","дворовая");
         System.out.println(catyara.getAll1_data());
         Gopher gophers = new Gopher();
-        gophers.all_data(" рыжий "," 9 ");
+        gophers.all_data(" рыжий "," 9 ", "большой");
         System.out.println(gophers.getall_data());
 
 

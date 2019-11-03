@@ -1,15 +1,17 @@
 public class Gopher{
     private String color;
     private String weight;
+    private String size;
 
     public void east(){
     }
-    public void all_data(String color,String weight) {
+    public void all_data(String color,String weight,String size) {
         setColor(color);
         setWeight(weight);
+        setSize(size);
     }
     public String getall_data() {
-        return "окрас сурка:" + getColor() + " вес сурка:" + getWeight();}
+        return "окрас суслика:" + getColor() + " вес суcлика:" + getWeight() + "размер суслика: " + getSize();}
 
 
     public void setColor(String color) {
@@ -29,6 +31,13 @@ public class Gopher{
         return weight;
     }
 
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    public String getSize() {
+        return size;
+    }
     //dfggadfku
 }
 
