@@ -28,6 +28,8 @@ public class Gopher{
     public String getWeight() {
         return weight;
     }
+
+    //dfggadfku
 }
 
 
